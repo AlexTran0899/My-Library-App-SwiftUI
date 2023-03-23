@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAA79B7829CBBA300025F906 /* BookChallangeMod4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA79B7729CBBA300025F906 /* BookChallangeMod4App.swift */; };
+		FAA79B7A29CBBA300025F906 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA79B7929CBBA300025F906 /* ContentView.swift */; };
+		FAA79B7C29CBBA310025F906 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA79B7B29CBBA310025F906 /* Assets.xcassets */; };
+		FAA79B7F29CBBA310025F906 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA79B7E29CBBA310025F906 /* Preview Assets.xcassets */; };
+		FAA79B8729CBBA550025F906 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = FAA79B8629CBBA550025F906 /* Data.json */; };
+		FAA79B8D29CBBA850025F906 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA79B8C29CBBA850025F906 /* DataService.swift */; };
+		FAA79B8F29CBBAC00025F906 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA79B8E29CBBAC00025F906 /* Book.swift */; };
+		FAA79B9229CBBD820025F906 /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA79B9129CBBD820025F906 /* BookModel.swift */; };
+		FAA79B9429CBBECC0025F906 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA79B9329CBBECC0025F906 /* CardView.swift */; };
+		FAA79B9629CBC47B0025F906 /* DetailBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA79B9529CBC47B0025F906 /* DetailBookView.swift */; };
+		FAA79B9829CBEFB30025F906 /* BookContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA79B9729CBEFB30025F906 /* BookContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAA79B7429CBBA300025F906 /* BookChallangeMod4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookChallangeMod4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA79B7729CBBA300025F906 /* BookChallangeMod4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookChallangeMod4App.swift; sourceTree = "<group>"; };
+		FAA79B7929CBBA300025F906 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FAA79B7B29CBBA310025F906 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAA79B7E29CBBA310025F906 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FAA79B8629CBBA550025F906 /* Data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
+		FAA79B8C29CBBA850025F906 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		FAA79B8E29CBBAC00025F906 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		FAA79B9129CBBD820025F906 /* BookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
+		FAA79B9329CBBECC0025F906 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		FAA79B9529CBC47B0025F906 /* DetailBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBookView.swift; sourceTree = "<group>"; };
+		FAA79B9729CBEFB30025F906 /* BookContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAA79B7129CBBA300025F906 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAA79B6B29CBBA300025F906 = {
+			isa = PBXGroup;
+			children = (
+				FAA79B7629CBBA300025F906 /* BookChallangeMod4 */,
+				FAA79B7529CBBA300025F906 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAA79B7529CBBA300025F906 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA79B7429CBBA300025F906 /* BookChallangeMod4.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAA79B7629CBBA300025F906 /* BookChallangeMod4 */ = {
+			isa = PBXGroup;
+			children = (
+				FAA79B8B29CBBA730025F906 /* Services */,
+				FAA79B8A29CBBA6C0025F906 /* ViewModels */,
+				FAA79B8929CBBA5F0025F906 /* Models */,
+				FAA79B8529CBBA470025F906 /* Data */,
+				FAA79B8829CBBA5C0025F906 /* Views */,
+				FAA79B7B29CBBA310025F906 /* Assets.xcassets */,
+				FAA79B7D29CBBA310025F906 /* Preview Content */,
+			);
+			path = BookChallangeMod4;
+			sourceTree = "<group>";
+		};
+		FAA79B7D29CBBA310025F906 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FAA79B7E29CBBA310025F906 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FAA79B8529CBBA470025F906 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FAA79B8629CBBA550025F906 /* Data.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		FAA79B8829CBBA5C0025F906 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FAA79B7729CBBA300025F906 /* BookChallangeMod4App.swift */,
+				FAA79B7929CBBA300025F906 /* ContentView.swift */,
+				FAA79B9329CBBECC0025F906 /* CardView.swift */,
+				FAA79B9529CBC47B0025F906 /* DetailBookView.swift */,
+				FAA79B9729CBEFB30025F906 /* BookContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FAA79B8929CBBA5F0025F906 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FAA79B8E29CBBAC00025F906 /* Book.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FAA79B8A29CBBA6C0025F906 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FAA79B9129CBBD820025F906 /* BookModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FAA79B8B29CBBA730025F906 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FAA79B8C29CBBA850025F906 /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAA79B7329CBBA300025F906 /* BookChallangeMod4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA79B8229CBBA310025F906 /* Build configuration list for PBXNativeTarget "BookChallangeMod4" */;
+			buildPhases = (
+				FAA79B7029CBBA300025F906 /* Sources */,
+				FAA79B7129CBBA300025F906 /* Frameworks */,
+				FAA79B7229CBBA300025F906 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookChallangeMod4;
+			productName = BookChallangeMod4;
+			productReference = FAA79B7429CBBA300025F906 /* BookChallangeMod4.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAA79B6C29CBBA300025F906 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					FAA79B7329CBBA300025F906 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = FAA79B6F29CBBA300025F906 /* Build configuration list for PBXProject "BookChallangeMod4" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAA79B6B29CBBA300025F906;
+			productRefGroup = FAA79B7529CBBA300025F906 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAA79B7329CBBA300025F906 /* BookChallangeMod4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAA79B7229CBBA300025F906 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA79B7F29CBBA310025F906 /* Preview Assets.xcassets in Resources */,
+				FAA79B7C29CBBA310025F906 /* Assets.xcassets in Resources */,
+				FAA79B8729CBBA550025F906 /* Data.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAA79B7029CBBA300025F906 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA79B9229CBBD820025F906 /* BookModel.swift in Sources */,
+				FAA79B9829CBEFB30025F906 /* BookContentView.swift in Sources */,
+				FAA79B8F29CBBAC00025F906 /* Book.swift in Sources */,
+				FAA79B8D29CBBA850025F906 /* DataService.swift in Sources */,
+				FAA79B7A29CBBA300025F906 /* ContentView.swift in Sources */,
+				FAA79B9429CBBECC0025F906 /* CardView.swift in Sources */,
+				FAA79B9629CBC47B0025F906 /* DetailBookView.swift in Sources */,
+				FAA79B7829CBBA300025F906 /* BookChallangeMod4App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FAA79B8029CBBA310025F906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAA79B8129CBBA310025F906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAA79B8329CBBA310025F906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BookChallangeMod4/Preview Content\"";
+				DEVELOPMENT_TEAM = 36F5ZG3KS4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alextranwebsite.BookChallangeMod4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAA79B8429CBBA310025F906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BookChallangeMod4/Preview Content\"";
+				DEVELOPMENT_TEAM = 36F5ZG3KS4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alextranwebsite.BookChallangeMod4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAA79B6F29CBBA300025F906 /* Build configuration list for PBXProject "BookChallangeMod4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA79B8029CBBA310025F906 /* Debug */,
+				FAA79B8129CBBA310025F906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA79B8229CBBA310025F906 /* Build configuration list for PBXNativeTarget "BookChallangeMod4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA79B8329CBBA310025F906 /* Debug */,
+				FAA79B8429CBBA310025F906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAA79B6C29CBBA300025F906 /* Project object */;
+}
